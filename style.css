@@ -1,0 +1,88 @@
+<style>
+body {
+  min-width: 290px;
+  color: #4d4e53;
+  background-color:#cca;
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+#navbar {
+  background-color: #fff;
+  font-size:15px;
+  font-color:red;
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+   width: 245px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px 5px;
+    padding: 4px;
+    height:100%;
+}
+header {
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: thin;
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+}
+.codes{
+  color:blue;
+   text-align:center;
+   cursor: pointer;
+}
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;
+}
+#navbar li {
+  color: #4d4e53;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  font-color:red;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+@media only screen and (max-width: 600px) {
+  #navbar#main-doc {background: red;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #navbar#main-doc  {background: green;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #navbar#main-doc  {background: blue;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #navbar#main-doc  {background: orange;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #navbar#main-doc  {background: pink;}
+}
+
+</style>
